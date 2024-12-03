@@ -1,0 +1,119 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1E8E8E;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Carousel */
+.carousel {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carousel-item {
+    width: 300px;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.carousel-item h3 {
+    margin: 10px 0;
+}
+
+.carousel-item p {
+    font-size: 1.2em;
+}
+
+/* Product Details */
+.product-details {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-details img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.product-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description, .product-history, .making-steps {
+    margin-bottom: 20px;
+    text-align: center;
+    text-size-adjust: auto;
+}
+
+.description h3, .product-history h3, .making-steps h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    text-size-adjust: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #1E8E8E;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
